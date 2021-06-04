@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "60b9055217b0f942931efa33"
+  },
+  "user_id": {
+    "$oid": "60b8ff6217b0f942931efa2d"
+  },
+  "movies_id": {
+    "$oid": "60b8e91917b0f942931efa25"
+  },
+  "vote": 3.5,
+  "comment": "good",
+  "lastupdated": {
+    "$date": "2021-12-19T17:00:00Z"
+  }
+}]

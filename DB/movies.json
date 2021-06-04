@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "60b8e91917b0f942931efa25"
+  },
+  "title": "Fate Stay Night: Unlimited Blade",
+  "othertitle": "フェイト／ステイナイト, Feito／sutei naito",
+  "description": "Every human inhabiting the world of Alcia is branded by a “Count” or a number written on their body. For Hina’s mother, her total drops to 0 and she’s pulled into the Abyss, never to be seen again. But her mother’s last words send Hina on a quest to find a legendary hero from the Waste War - the fabled Ace!",
+  "poster": "",
+  "banner": "",
+  "type": "TV Series",
+  "countries": [
+    "Japan"
+  ],
+  "duration": "24 min/ep",
+  "genre": [
+    "Action",
+    "Adventure",
+    "Fantasy",
+    "Magic"
+  ],
+  "quality": "HD",
+  "status": "Airing",
+  "studio": [
+    "Lerche"
+  ],
+  "views": 131541,
+  "release": {
+    "$date": "2021-06-03T17:00:00Z"
+  },
+  "lastupdated": {
+    "$date": "2019-10-18T17:02:53.443Z"
+  },
+  "num_comments": 10,
+  "num_ep": 18
+},{
+  "_id": {
+    "$oid": "60b9d02c969aa5a4236b740f"
+  },
+  "plot": "Three men hammer on an anvil and pass a bottle of beer around.",
+  "genres": [
+    "Short"
+  ],
+  "runtime": 1,
+  "cast": [
+    "Charles Kayser",
+    "John Ott"
+  ],
+  "num_comments": 1,
+  "title": "Blacksmith Scene",
+  "fullplot": "A stationary camera looks at a large anvil with a blacksmith behind it and one on either side. The smith in the middle draws a heated metal rod from the fire, places it on the anvil, and all three begin a rhythmic hammering. After several blows, the metal goes back in the fire. One smith pulls out a bottle of beer, and they each take a swig. Then, out comes the glowing metal and the hammering resumes.",
+  "countries": [
+    "USA"
+  ],
+  "released": {
+    "$date": {
+      "$numberLong": "-2418768000000"
+    }
+  },
+  "directors": [
+    "William K.L. Dickson"
+  ],
+  "rated": "UNRATED",
+  "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+  },
+  "lastupdated": {
+    "$date": "2015-08-25T17:03:50.133Z"
+  },
+  "year": 1893,
+  "type": "movie",
+  "views": 1253
+},{
+  "_id": {
+    "$oid": "60b9d351fab6341a3055201d"
+  },
+  "plot": "A group of bandits stage a brazen train hold-up, only to find a determ...",
+  "genres": [
+    "Short",
+    "Drama",
+    "Fantasy"
+  ],
+  "runtime": 14,
+  "cast": [
+    "Martin Fuller",
+    "Mrs. William Bechtel",
+    "Walter Edwin",
+    "Ethel Jewett"
+  ],
+  "num_comments": 2,
+  "title": "The Land Beyond the Sunset",
+  "fullplot": "Thanks to the Fresh Air Fund, a slum child escapes his drunken mother ...",
+  "countries": [
+    "USA"
+  ],
+  "released": {
+    "$date": {
+      "$numberLong": "-1804377600000"
+    }
+  },
+  "directors": [
+    "Harold M. Shaw"
+  ],
+  "rated": "UNRATED",
+  "awards": {
+    "wins": 1,
+    "nominations": 0,
+    "text": "1 win."
+  },
+  "lastupdated": {
+    "$date": "2015-08-28T17:27:45.437Z"
+  },
+  "year": 1912,
+  "type": "movie",
+  "languages": [
+    "English"
+  ],
+  "poster": "https://m.media-amazon.com/images/M/MV5BMTMzMDcxMjgyNl5BMl5BanBnXkFtZT..."
+}]
