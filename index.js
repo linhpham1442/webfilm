@@ -52,10 +52,11 @@ app.use(function(req, res, next) {
 var pages = require('./routes/pages.js');
 var adminPages = require('./routes/admin_pages.js');
 var adminCategories = require('./routes/admin_categories.js');
-
+var admin = require('./routes/admin.js')
 
 app.use('/admin/pages', adminPages);
 app.use('/admin/categories', adminCategories);
+app.use('/admin', admin);
 app.use('/', pages);
 
 //Start the server

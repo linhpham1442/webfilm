@@ -1,0 +1,13 @@
+<%- include ('../partials/adminheader'); %>
+    <h2 class="page-title">Edit a page</h2>
+    <a href="/admin/categories" class="btn btn-primary">Back to all categories</a>
+    <br><br>
+    <form action="/admin/categories/edit-category/<%= id %>" method="POST">
+        <div class="form-group">
+            <label for="">Title</label>
+            <input type="text" class="form-control" name="title" value="<%= title %>" placeholder="Title">
+        </div>
+
+        <button class="btn btn-outline-secondary">Submit</button>
+    </form>
+    <%- include ('../partials/adminfooter'); %>

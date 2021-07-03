@@ -5,44 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Area</title>
+    <title>
+        <%=admintitle%>
+    </title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
     <link rel="stylesheet" href="/css/adminstyle.css">
+    <!-- <link href="assets/css/material-dashboard.css?v=2.1.2" rel="stylesheet" /> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-            <!-- Brand -->
-            <a class="navbar-brand" href="/" target="_blank">Cmsshoopingcart</a>
-
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="/admin/pages">Pages</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/admin/categories">Categories</a></li>
+    <div class="wrapper">
+        <div class="sidebar" data-color="danger" data-background-color="black">
+            <div class="logo">
+                <a href="/admin" target="_blank" class="simple-text logo-normal"><img src="/img/logo1.png"></a>
+            </div>
+            <div class="sidebar-wrapper">
+                <ul class="nav">
+                    <li class="nav-item <%=admintitle === 'Dashboard' ? 'active' : '' %>">
+                        <a class="nav-link" href="/admin">
+                            <i class="fas fa-home"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li class="nav-item <%=(admintitle === 'Pages'|| admintitle === 'Edit page'|| admintitle === 'Add page') ? 'active' : '' %>">
+                        <a class="nav-link" href="/admin/pages">
+                            <i class="fas fa-pager"></i>
+                            <p>Pages</p>
+                        </a>
+                    </li>
+                    <li class="nav-item <%=(admintitle === 'Categories'|| admintitle === 'Edit category'|| admintitle === 'Add category') ? 'active' : '' %>">
+                        <a class="nav-link" href="/admin/categories">
+                            <i><span class="iconify" data-inline="false" data-icon="bx:bx-category" style="font-size: 24px;"></span></i>
+                            <p>Categories</p>
+                        </a>
+                    </li>
+                    <!-- your sidebar here -->
                 </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <div class="container">
-        <%- messages ('messages', locals) %>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto">
+                        <form class="form-inline mt-2 mt-md-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                        <li class="nav-item text-nowrap">
+                            <a class="nav-link pl-4" href="#" style="color: aliceblue;">Login</a>
+                        </li>
+                    </ul>
+                    </ul>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="content ">
+                <div class="container-fluid ">
+                    <%- messages ('messages', locals) %>
 
-            <% if(typeof alert != 'undefined') { %>
-                <% alert.forEach(function(error){ %>
-                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                        <%= error.msg %>
-                            <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
-                            <!-- <strong>Success!</strong> -->
-                    </div>
-                    <% }) %>
-                        <% } %>
+                        <% if(typeof alert != 'undefined') { %>
+                            <% alert.forEach(function(error){ %>
+                                <div class="alert alert-success alert-dismissible fade show " role="alert ">
+                                    <%= error.msg %>
+                                        <button type="button " class="close " data-dismiss="alert "><span aria-hidden="true ">&times;</span></button>
+                                        <!-- <strong>Success!</strong> -->
+                                </div>
+                                <% }) %>
+                                    <% } %>
