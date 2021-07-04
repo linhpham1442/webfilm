@@ -2,9 +2,9 @@
   "_id": {
     "$oid": "60b8e91917b0f942931efa25"
   },
-  "title": "Fate Stay Night: Unlimited Blade",
-  "othertitle": "フェイト／ステイナイト, Feito／sutei naito",
-  "description": "Every human inhabiting the world of Alcia is branded by a “Count” or a number written on their body. For Hina’s mother, her total drops to 0 and she’s pulled into the Abyss, never to be seen again. But her mother’s last words send Hina on a quest to find a legendary hero from the Waste War - the fabled Ace!",
+  "title": "Sukitee li na yo",
+  "othertitle": "好きっていいなよ。",
+  "description": "Friends will only let you down—that is the sad truth Mei Tachibana lives with, ever since she was wrongfully blamed for the death of a class pet by her so-called friends in grade school. Since then, she stays away from people in order to avoid ever being hurt again. However, Mei's life begins to change drastically when a misunderstanding in high school causes her to encounter popular student Yamato Kurosawa.",
   "poster": "",
   "banner": "",
   "type": "TV Series",
@@ -13,108 +13,75 @@
   ],
   "duration": "24 min/ep",
   "genre": [
-    "Action",
-    "Adventure",
-    "Fantasy",
-    "Magic"
+    "Romance",
+    "School",
+    "Drama",
+    "Shoujo"
   ],
   "quality": "HD",
-  "status": "Airing",
-  "studio": [
-    "Lerche"
-  ],
-  "views": 131541,
+  "status": "Finished Airing",
+  "views": 284.115,
   "release": {
-    "$date": "2021-06-03T17:00:00Z"
+    "$date": "Oct 7, 2012 to Dec 30, 2012"
   },
-  "lastupdated": {
-    "$date": "2019-10-18T17:02:53.443Z"
-  },
-  "num_comments": 10,
-  "num_ep": 18
+  "num_comments": 6,
+  "num_ep": 13
 },{
   "_id": {
     "$oid": "60b9d02c969aa5a4236b740f"
   },
-  "plot": "Three men hammer on an anvil and pass a bottle of beer around.",
-  "genres": [
-    "Short"
-  ],
-  "runtime": 1,
-  "cast": [
-    "Charles Kayser",
-    "John Ott"
-  ],
-  "num_comments": 1,
-  "title": "Blacksmith Scene",
-  "fullplot": "A stationary camera looks at a large anvil with a blacksmith behind it and one on either side. The smith in the middle draws a heated metal rod from the fire, places it on the anvil, and all three begin a rhythmic hammering. After several blows, the metal goes back in the fire. One smith pulls out a bottle of beer, and they each take a swig. Then, out comes the glowing metal and the hammering resumes.",
+  "title": "Aho Girls",
+  "othertitle": "アホガール",
+  "description": "Yoshiko Hanabatake is an idiot beyond all belief. Somehow managing to consistently score zeroes on all of her tests and consumed by an absurd obsession with bananas, her senseless acts have caused even her own mother to lose all hope. Only one person is up to the task of keeping her insanity in check: childhood friend Akuru A-Kun Akutsu.",
+  "poster": "",
+  "banner": "",
+  "type": "TV Series",
   "countries": [
-    "USA"
+    "Japan"
   ],
-  "released": {
-    "$date": {
-      "$numberLong": "-2418768000000"
-    }
-  },
-  "directors": [
-    "William K.L. Dickson"
+  "duration": "12 min/ep",
+  "genre": [
+    "Comedy",
+    "Romance",
+    "School",
+    "Shounen"
   ],
-  "rated": "UNRATED",
-  "awards": {
-    "wins": 1,
-    "nominations": 0,
-    "text": "1 win."
+  "quality": "HD",
+  "status": "Finished Airing",
+  "views":  371.415,
+  "release": {
+    "$date": " Jul 4, 2017 to Sep 19, 2017"
   },
-  "lastupdated": {
-    "$date": "2015-08-25T17:03:50.133Z"
-  },
-  "year": 1893,
-  "type": "movie",
-  "views": 1253
+  "num_comments": 6,
+  "num_ep": 12
 },{
   "_id": {
     "$oid": "60b9d351fab6341a3055201d"
   },
-  "plot": "A group of bandits stage a brazen train hold-up, only to find a determ...",
-  "genres": [
-    "Short",
-    "Drama",
-    "Fantasy"
-  ],
-  "runtime": 14,
-  "cast": [
-    "Martin Fuller",
-    "Mrs. William Bechtel",
-    "Walter Edwin",
-    "Ethel Jewett"
-  ],
-  "num_comments": 2,
-  "title": "The Land Beyond the Sunset",
-  "fullplot": "Thanks to the Fresh Air Fund, a slum child escapes his drunken mother ...",
+  "title": "One Punch Man",
+  "othertitle": "ワンパンマン",
+  "description": "The seemingly ordinary and unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, he trained relentlessly for three years—and lost all of his hair in the process. Now, Saitama is incredibly powerful, so much so that no enemy is able to defeat him in battle. In fact, all it takes to defeat evildoers with just one punch has led to an unexpected problem—he is no longer able to enjoy the thrill of battling and has become quite bored.",  "poster": "",
+  "banner": "",
+  "type": "TV Series",
   "countries": [
-    "USA"
+    "Japan"
   ],
-  "released": {
-    "$date": {
-      "$numberLong": "-1804377600000"
-    }
-  },
-  "directors": [
-    "Harold M. Shaw"
+  "duration": "24 min/ep",
+  "genre": [
+    "Comedy",
+    "Action", 
+    "Sci-Fi", 
+    "Comedy", 
+    "Parody", 
+    "Super Power", 
+    "Supernatural"
   ],
-  "rated": "UNRATED",
-  "awards": {
-    "wins": 1,
-    "nominations": 0,
-    "text": "1 win."
+  "quality": "HD",
+  "status": "Finished Airing",
+  "views":   1616194,
+  "release": {
+    "$date": " Oct 5, 2015 to Dec 21, 2015"
   },
-  "lastupdated": {
-    "$date": "2015-08-28T17:27:45.437Z"
-  },
-  "year": 1912,
-  "type": "movie",
-  "languages": [
-    "English"
-  ],
-  "poster": "https://m.media-amazon.com/images/M/MV5BMTMzMDcxMjgyNl5BMl5BanBnXkFtZT..."
+  "num_comments": 6,
+  "num_ep": 24
 }]

@@ -7,14 +7,14 @@ var MovieSchema = mongoose.Schema({
         type: String,
         require: true
     },
-    slug: {
-        type: String
-    },
     othertitle: {
         type: String,
         require: true
     },
-    plot: {
+    slug: {
+        type: String
+    },
+    desciption: {
         type: String,
         require: true
     },
@@ -28,29 +28,33 @@ var MovieSchema = mongoose.Schema({
     type: {
         type: Number
     },
+    countries: [{
+        type: String
+    }],
+    duration: {
+        type: String
+    },
     category: [{
         type: mongoose.Types.ObjectId,
         ref: 'category'
     }],
-    countries: {
-        type: String
-    },
-    duration: {
-        type: String
-    },
     quality: String,
     status: String,
     views: {
         type: Number,
         default: 0
     },
+    release: {
+        type: Date
+    },
     comments: [{
         type: mongoose.Types.ObjectId,
         ref: 'comment'
     }],
-    release: {
-        type: Date
-    },
+    epsisode: [{
+        type: mongoose.Types.ObjectId,
+        ref: 'epsisode'
+    }]
 }, { timestamps: true })
 
 var Movie = module.exports = mongoose.model('Movie', MovieSchema);

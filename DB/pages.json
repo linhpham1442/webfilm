@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "60d2f9963cca2a0748da443a"
+  },
+  "title": "Home",
+  "slug": "home",
+  "content": "Home ",
+  "sorting": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2f9a93cca2a0748da443b"
+  },
+  "title": "Categories",
+  "slug": "categories",
+  "content": "Categories content",
+  "sorting": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60e027eb2588672dc02f9482"
+  },
+  "title": "Blog",
+  "slug": "blog",
+  "content": "Blog content",
+  "sorting": 100,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60e0959c234cbf31348c1dc5"
+  },
+  "title": "Contact",
+  "slug": "contact",
+  "content": "Contact page",
+  "sorting": 100,
+  "__v": 0
+}]

@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "60d305793a00f98c5e518cef"
+  },
+  "title": "Action",
+  "slug": "action"
+},{
+  "_id": {
+    "$oid": "60d3086065fbcb253cb4e5b9"
+  },
+  "title": "Romance",
+  "slug": "romance",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60ddeecc5b0e874bf8aafda0"
+  },
+  "title": "Comedy",
+  "slug": "comedy",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60e09582234cbf31348c1dc4"
+  },
+  "title": "Fiction",
+  "slug": "fiction",
+  "__v": 0
+}]
