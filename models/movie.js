@@ -47,14 +47,14 @@ var MovieSchema = mongoose.Schema({
     release: {
         type: Date
     },
-    comments: [{
-        type: mongoose.Types.ObjectId,
-        ref: 'comment'
-    }],
-    epsisode: [{
-        type: mongoose.Types.ObjectId,
-        ref: 'epsisode'
-    }]
+    num_comments: {
+        type: Number,
+        default: 0
+    },
+    num_ep: {
+        type: Number,
+        default: 1
+    }
 }, { timestamps: true })
 
 var Movie = module.exports = mongoose.model('Movie', MovieSchema);

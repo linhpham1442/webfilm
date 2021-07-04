@@ -1,87 +1,88 @@
 [{
-  "_id": {
-    "$oid": "60b8e91917b0f942931efa25"
-  },
-  "title": "Sukitee li na yo",
-  "othertitle": "好きっていいなよ。",
-  "description": "Friends will only let you down—that is the sad truth Mei Tachibana lives with, ever since she was wrongfully blamed for the death of a class pet by her so-called friends in grade school. Since then, she stays away from people in order to avoid ever being hurt again. However, Mei's life begins to change drastically when a misunderstanding in high school causes her to encounter popular student Yamato Kurosawa.",
-  "poster": "",
-  "banner": "",
-  "type": "TV Series",
-  "countries": [
-    "Japan"
-  ],
-  "duration": "24 min/ep",
-  "genre": [
-    "Romance",
-    "School",
-    "Drama",
-    "Shoujo"
-  ],
-  "quality": "HD",
-  "status": "Finished Airing",
-  "views": 284.115,
-  "release": {
-    "$date": "Oct 7, 2012 to Dec 30, 2012"
-  },
-  "num_comments": 6,
-  "num_ep": 13
-},{
-  "_id": {
-    "$oid": "60b9d02c969aa5a4236b740f"
-  },
-  "title": "Aho Girls",
-  "othertitle": "アホガール",
-  "description": "Yoshiko Hanabatake is an idiot beyond all belief. Somehow managing to consistently score zeroes on all of her tests and consumed by an absurd obsession with bananas, her senseless acts have caused even her own mother to lose all hope. Only one person is up to the task of keeping her insanity in check: childhood friend Akuru A-Kun Akutsu.",
-  "poster": "",
-  "banner": "",
-  "type": "TV Series",
-  "countries": [
-    "Japan"
-  ],
-  "duration": "12 min/ep",
-  "genre": [
-    "Comedy",
-    "Romance",
-    "School",
-    "Shounen"
-  ],
-  "quality": "HD",
-  "status": "Finished Airing",
-  "views":  371.415,
-  "release": {
-    "$date": " Jul 4, 2017 to Sep 19, 2017"
-  },
-  "num_comments": 6,
-  "num_ep": 12
-},{
-  "_id": {
-    "$oid": "60b9d351fab6341a3055201d"
-  },
-  "title": "One Punch Man",
-  "othertitle": "ワンパンマン",
-  "description": "The seemingly ordinary and unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, he trained relentlessly for three years—and lost all of his hair in the process. Now, Saitama is incredibly powerful, so much so that no enemy is able to defeat him in battle. In fact, all it takes to defeat evildoers with just one punch has led to an unexpected problem—he is no longer able to enjoy the thrill of battling and has become quite bored.",  "poster": "",
-  "banner": "",
-  "type": "TV Series",
-  "countries": [
-    "Japan"
-  ],
-  "duration": "24 min/ep",
-  "genre": [
-    "Comedy",
-    "Action", 
-    "Sci-Fi", 
-    "Comedy", 
-    "Parody", 
-    "Super Power", 
-    "Supernatural"
-  ],
-  "quality": "HD",
-  "status": "Finished Airing",
-  "views":   1616194,
-  "release": {
-    "$date": " Oct 5, 2015 to Dec 21, 2015"
-  },
-  "num_comments": 6,
-  "num_ep": 24
+    "_id": {
+        "$oid": "60b8e91917b0f942931efa25"
+    },
+    "title": "Sukitee li na yo",
+    "othertitle": "好きっていいなよ。",
+    "description": "Friends will only let you down—that is the sad truth Mei Tachibana lives with, ever since she was wrongfully blamed for the death of a class pet by her so-called friends in grade school. Since then, she stays away from people in order to avoid ever being hurt again. However, Mei's life begins to change drastically when a misunderstanding in high school causes her to encounter popular student Yamato Kurosawa.",
+    "poster": "",
+    "banner": "",
+    "type": "TV Series",
+    "countries": [
+        "Japan"
+    ],
+    "duration": "24 min/ep",
+    "category": [
+        "Romance",
+        "School",
+        "Drama",
+        "Shoujo"
+    ],
+    "quality": "HD",
+    "status": "Finished Airing",
+    "views": 284.115,
+    "release": {
+        "$date": "Oct 7, 2012 to Dec 30, 2012"
+    },
+    "num_comments": 6,
+    "num_ep": 13
+}, {
+    "_id": {
+        "$oid": "60b9d02c969aa5a4236b740f"
+    },
+    "title": "Aho Girls",
+    "othertitle": "アホガール",
+    "description": "Yoshiko Hanabatake is an idiot beyond all belief. Somehow managing to consistently score zeroes on all of her tests and consumed by an absurd obsession with bananas, her senseless acts have caused even her own mother to lose all hope. Only one person is up to the task of keeping her insanity in check: childhood friend Akuru A-Kun Akutsu.",
+    "poster": "",
+    "banner": "",
+    "type": "TV Series",
+    "countries": [
+        "Japan"
+    ],
+    "duration": "12 min/ep",
+    "category": [
+        "Comedy",
+        "Romance",
+        "School",
+        "Shounen"
+    ],
+    "quality": "HD",
+    "status": "Finished Airing",
+    "views": 371.415,
+    "release": {
+        "$date": " Jul 4, 2017 to Sep 19, 2017"
+    },
+    "num_comments": 6,
+    "num_ep": 12
+}, {
+    "_id": {
+        "$oid": "60b9d351fab6341a3055201d"
+    },
+    "title": "One Punch Man",
+    "othertitle": "ワンパンマン",
+    "description": "The seemingly ordinary and unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, he trained relentlessly for three years—and lost all of his hair in the process. Now, Saitama is incredibly powerful, so much so that no enemy is able to defeat him in battle. In fact, all it takes to defeat evildoers with just one punch has led to an unexpected problem—he is no longer able to enjoy the thrill of battling and has become quite bored.",
+    "poster": "",
+    "banner": "",
+    "type": "TV Series",
+    "countries": [
+        "Japan"
+    ],
+    "duration": "24 min/ep",
+    "category": [
+        "Comedy",
+        "Action",
+        "Sci-Fi",
+        "Comedy",
+        "Parody",
+        "Super Power",
+        "Supernatural"
+    ],
+    "quality": "HD",
+    "status": "Finished Airing",
+    "views": 1616194,
+    "release": {
+        "$date": " Oct 5, 2015 to Dec 21, 2015"
+    },
+    "num_comments": 6,
+    "num_ep": 24
 }]
